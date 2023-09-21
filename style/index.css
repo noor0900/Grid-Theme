@@ -636,12 +636,12 @@ nav>.btn>button:hover{
     cursor: pointer;
  }
  .n{
-    width: 10%;
+    width: 10% !important;
     height: 50px;
     /* border: 1px solid blue; */
     background-color: white;
     position: absolute;
-    left: 260px;
+    left: 260px !important;
     /* left: 300px; */
     border-radius: 6px;
     top: 55%;
@@ -662,12 +662,10 @@ nav>.btn>button:hover{
     cursor: pointer;
 }
 .n1{
-    left: 350px;
-    width: 10%;
+    /* left: 350px; */
+    width: 10% !important;
     height: 50px;
-
-
-    /* left: 400px; */
+    left: 350px !important;
 }
 .icn>.fa-link{
     color: #ff3271;
@@ -731,7 +729,7 @@ nav>.btn>button:hover{
     cursor: pointer;
  }
  .n{
-    width: 6%;
+    width: 10%;
     height: 50px;
     /* border: 1px solid blue; */
     background-color: white;
